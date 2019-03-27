@@ -1,5 +1,64 @@
-p{
-  background-color: #000;
-  color: #fff;
-  text-align: center;
+/* Nav Styles */
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.menu-link {
+  background-color: #184a8e;
+  margin: 5px;
+  font-family: 'Short Stack', cursive;
+}
+
+.menu-link-about {
+  background-color: #184a8e;
+  margin: 5px;
+  padding-right: 5px;
+  font-family: 'Short Stack', cursive;
+}
+
+.nav-shadow {
+  box-shadow: 0px 3px 10px #cecece;
+}
+
+.top-bar {
+  background-color: #0a7aa6;
+}
+
+.top-bar ul {
+  background-color: #0a7aa6;
+}
+
+.dropdown.menu > li.is-active > a {
+  color: #ffffff;
+  }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #ffffff transparent transparent;
+}
+
+.is-dropdown-submenu {
+  border: none;
+}
+
+.dropdown.menu > li.opens-right > .is-dropdown-submenu {
+  background-color: #184a8e;
+}
+
+
+
+/* Welcome Styles */
+
+#welcome {
+  background-image: url('../images/about-chico-header.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }
