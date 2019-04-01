@@ -8,21 +8,27 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
 
+  <header class="grid-container fluid">
+
+
     <div class="title-bar" data-responsive-toggle="responsive-nav" data-hide-for="medium">
       <button class="menu-icon" type="button" data-toggle></button>
-      <div class="title-bar-title">Menu</div>
     </div>
 
 
-<div class="row">
-  <div class="columns">
-    <div data-sticky-container>
-    <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%" id="responsive-nav">
-      <div class="top-bar-left">
+
+<div data-sticky-container>
+<div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse">
+  <div class="large-12 cell">
+    <div class="top-bar" data-sticky data-options="marginTop:0;" id="responsive-nav">
+
+  <div class="top-bar-left" style="margin: 0; max-width: 200px;">
         <ul class="dropdown menu" data-dropdown-menu>
+
     <li class="menu-link"><a href="#">Home</a></li>
   <li class="is-dropdown-submenu-parent menu-link-about">
     <a href="#">About</a>
@@ -33,9 +39,16 @@
     </ul>
   </li>
 </ul>
+</div>
+      <div class="grid-x align-center">
+        <div class="cell">
+          <img class="show-for-large" src="images/logo.png" alt="Logo" id="logo">
+        </div>
       </div>
-      <div class="top-bar-right">
+
+      <div class="top-bar-right" style="margin: 0; max-width: 400px;">
         <ul class="menu">
+          <li class="menu-link"><a href="#">Locations</a></li>
           <li class="menu-link"><a href="#">Order</a></li>
           <li class="menu-link"><a href="#">Donate</a></li>
         </ul>
@@ -45,15 +58,47 @@
 </div>
 </div>
 
+</header>
 
+<main class="grid-container fluid">
 
-<div class="row">
-<div class="columns">
+<div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse">
+  <div class="large-12 cell">
   <div id="welcome">
-
+        <div class="grid-x align-center">
+          <div class="small-12 cell">
+            <img src="images/chico-icon.png" alt="Chico">
+          </div>
+        </div>
+        <p class="about-title">About Chico</p>
+    </div>
   </div>
 </div>
+
+<div class="grid-x align-center medium-padding-collapse small-padding-collapse">
+  <div class="large-8 cell">
+    <p class="body-text">
+      Chico is a two year-old Peka-Tzu Chorkie (Pekingese-Shih-Tzu & Yorkie-Chihuahua Mix) He joined our family in December of 2011, just in time for Christmas. As soon as we walked into the house, our three daughters immediately surrounded our shy, but confident new addition to our home. Today, Chico is a happy dog who loves to run around chasing his favorite glow-ball or taking a dip in the pool on a hot summer day. Otherwise, you will find him sitting on the couch watching TV with his three big sisters. Chico loves to snack on a variety of goodies, from apples, carrots, cucumbers, and ice cream cones! Chico is very proud to share with all children his stories and adventures.
+    </p>
+  </div>
 </div>
+
+
+<div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse">
+  <div class="large-12 cell">
+    <footer id="main-footer">
+      <p class="copyright">Copyright &copy; 2019 Chico's Adventures.</p>
+      <hr class="footer-divide">
+      <ul class="menu align-center" id="footer-nav">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Sitemap</a></li>
+      </ul>
+    </footer>
+  </div>
+</div>
+
+</main>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
