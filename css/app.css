@@ -17,59 +17,102 @@ a:visited {
   background-color: #184a8e;
   margin: 5px;
   font-family: 'Short Stack', cursive;
+  border-radius: 20px;
 }
 
-.menu-link-about {
-  background-color: #184a8e;
-  margin: 5px;
-  padding-right: 5px;
-  font-family: 'Short Stack', cursive;
+.topbar-center-logo {
+  background: #0a7aa6;
+  height: 70px;
+  padding: 0;
+}
+
+.title-bar {
+  height: 70px;
+}
+
+.mobile-version {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-left: 10px;
+}
+
+.title-bar-title{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.1em;
+  margin-left: 10px;
+  color: white;
+}
+
+.topbar-center-logo .menu {
+  background: #0a7aa6;
+}
+
+.topbar-center-logo .menu a {
+  color: #fefefe;
+}
+
+.logo {
+  min-width: 180px;
+  min-height: 180px;
+}
+
+.top-bar-left {
+  max-width: fit-content !important;
+}
+
+.link-icon {
+  font-size: 16px;
+  margin-right: 7px;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .topbar-center-logo .top-bar-center {
+    display: none;
+  }
+
+  .top-bar-left {
+    max-width: none !important;
+  }
+
+  a {
+    text-align: center;
+    border-bottom: 0.5px solid #fff;
+  }
+  a:first-child {
+    border-top: 0.5px solid #fff;
+    border-bottom: none;
+  }
+  .menu-link {
+    background: transparent;
+    margin: 0;
+    border-radius: 0;
+  }
+  li.menu-link:hover {
+    background: #184a8e;
+  }
+  ul#footer-nav.menu.align-center li a {
+    border: none;
+  }
+}
+
+.topbar-center-logo-mobile {
+  background: #0a7aa6;
+}
+
+.topbar-center-logo-mobile .menu-icon {
+  vertical-align: text-top;
 }
 
 .nav-shadow {
   box-shadow: 0px 3px 10px #cecece;
 }
 
-.top-bar {
-  background-color: #0a7aa6;
-  height: 70px;
+.top-bar-center a {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2em;
 }
 
-header {
-  background-color: #0a7aa6;
-}
-
-.top-bar ul {
-  background-color: #0a7aa6;
-}
-
-.dropdown.menu > li.is-active > a {
-  color: #ffffff;
-  }
-
-.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
-  border-color: #ffffff transparent transparent;
-}
-
-.is-dropdown-submenu {
-  border: none;
-}
-
-.dropdown.menu > li.opens-right > .is-dropdown-submenu {
-  background-color: #184a8e;
-}
-
-.title-bar {
-  background-color: #0a7aa6;
-  height: 70px;
-}
-
-#logo {
-  width: 100px;
-  height: auto;
-  padding-top: 35px;
-  margin: 0 auto;
-  display: block;
+.top-bar-center a:hover {
+  text-decoration: none;
 }
 
 /* Welcome Styles */
@@ -80,13 +123,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
-  box-shadow: 0px 5px 10px #cecece;
+  box-shadow: 0px 5px 9px #cecece;
 }
 
 #welcome img {
   display: block;
   margin: 0 auto;
-  max-width: none;
+  max-width: 250px;
   padding-top: 50px;
 }
 

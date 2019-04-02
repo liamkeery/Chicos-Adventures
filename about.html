@@ -7,70 +7,55 @@
     <title>Chico's Adventures</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
     <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   </head>
   <body>
 
-  <header class="grid-container fluid">
-
-
-    <div class="title-bar" data-responsive-toggle="responsive-nav" data-hide-for="medium">
-      <button class="menu-icon" type="button" data-toggle></button>
-    </div>
-
-
-
-<div data-sticky-container>
-<div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse">
-  <div class="large-12 cell">
-    <div class="top-bar" data-sticky data-options="marginTop:0;" id="responsive-nav">
-
-  <div class="top-bar-left" style="margin: 0; max-width: 200px;">
-        <ul class="dropdown menu" data-dropdown-menu>
-
-    <li class="menu-link"><a href="#">Home</a></li>
-  <li class="is-dropdown-submenu-parent menu-link-about">
-    <a href="#">About</a>
-    <ul class="menu">
-      <li><a href="#">Chico</a></li>
-      <li><a href="#">The Author</a></li>
-      <li><a href="#">The Illustrator</a></li>
-    </ul>
-  </li>
-</ul>
-</div>
-      <div class="grid-x align-center">
-        <div class="cell">
-          <img class="show-for-large" src="images/logo.png" alt="Logo" id="logo">
-        </div>
+    <!-- mobile nav bar -->
+    <div class="title-bar topbar-center-logo-mobile" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
+      <div class="title-bar-left">
+        <div class="title-bar-title"><img class="logo" src="images/logo.svg" alt="Logo" /></div>
       </div>
+      <div class="title-bar-right">
+        <button class="menu-icon" type="button" data-toggle="topbar-center-logo"></button>
+      </div>
+    </div>
+    <!-- /mobile nav bar -->
 
-      <div class="top-bar-right" style="margin: 0; max-width: 400px;">
-        <ul class="menu">
-          <li class="menu-link"><a href="#">Locations</a></li>
-          <li class="menu-link"><a href="#">Order</a></li>
-          <li class="menu-link"><a href="#">Donate</a></li>
+    <!-- medium and larger nav bar -->
+    <div data-sitcky-container>
+    <div class="top-bar topbar-center-logo " id="topbar-center-logo" data-sticky data-options="marginTop:0;" style="width:100%">
+      <div class="top-bar-left">
+        <ul class="menu vertical medium-horizontal">
+          <li class="menu-link"><a href="#"><i class="fi-home link-icon"></i>Home</a></li>
+          <li class="menu-link"><a href="#"><i class="fi-guide-dog link-icon"></i>About</a></li>
+          <li class="menu-link"><a href="#"><i class="fi-marker link-icon"></i>Locations</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-center">
+        <a href="#"><img class="logo" src="images/logo.svg" alt="Logo" /></a>
+      </div>
+    <div class="top-bar-right">
+        <ul class="menu vertical medium-horizontal">
+          <li class="menu-link"><a href="#"><i class="fi-heart link-icon"></i>Donate</a></li>
+          <li class="menu-link"><a href="#"><i class="fi-shopping-cart link-icon"></i>Order</a></li>
+          <li class="menu-link"><a href="#"><i class="fi-mail link-icon"></i>Contact</a></li>
         </ul>
       </div>
     </div>
-    </div>
-</div>
-</div>
-
-</header>
+  </div>
+    <!-- /medium and larger nav bar -->
 
 <main class="grid-container fluid">
 
 <div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse">
   <div class="large-12 cell">
   <div id="welcome">
-        <div class="grid-x align-center">
-          <div class="small-12 cell">
-            <img src="images/chico-icon.png" alt="Chico">
-          </div>
-        </div>
-        <p class="about-title">About Chico</p>
+        <img src="images/chico-circle-container.svg" alt="About Chico">
+        <p class="about-title align-center">About Chico</p>
     </div>
   </div>
 </div>
@@ -91,7 +76,7 @@
       <hr class="footer-divide">
       <ul class="menu align-center" id="footer-nav">
         <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Press</a></li>
+        <li><a href="#">Privacy</a></li>
         <li><a href="#">Sitemap</a></li>
       </ul>
     </footer>
