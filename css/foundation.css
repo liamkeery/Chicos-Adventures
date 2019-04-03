@@ -5476,7 +5476,7 @@ a.thumbnail {
   .hide-for-medium {
     display: none !important; } }
 
-@media screen and (max-width: 39.99875em) {
+@media screen and (max-width: 928px) { /*39.99875em*/
   .show-for-medium {
     display: none !important; } }
 
