@@ -33,7 +33,7 @@
             <ul class="menu vertical medium-horizontal">
               <li class="menu-link"><a href="index.html"><i class="fi-home link-icon"></i>Home</a></li>
               <li class="menu-link"><a href="about.html"><i class="fi-guide-dog link-icon"></i>About</a></li>
-              <li class="menu-link"><a href="#"><i class="fi-marker link-icon"></i>Locations</a></li>
+              <li class="menu-link"><a href="#locations"><i class="fi-marker link-icon"></i>Locations</a></li>
             </ul>
           </div>
           <div class="top-bar-center">
@@ -41,9 +41,9 @@
           </div>
         <div class="top-bar-right">
             <ul class="menu vertical medium-horizontal">
-              <li class="menu-link"><a href="#"><i class="fi-heart link-icon"></i>Donate</a></li>
+              <li class="menu-link"><a href="#donate"><i class="fi-heart link-icon"></i>Donate</a></li>
               <li class="menu-link"><a href="#"><i class="fi-shopping-cart link-icon"></i>Order</a></li>
-              <li class="menu-link"><a href="#"><i class="fi-mail link-icon"></i>Contact</a></li>
+              <li class="menu-link"><a href="#contact-panel"><i class="fi-mail link-icon"></i>Contact</a></li>
             </ul>
           </div>
         </div>
@@ -84,30 +84,35 @@
             </div>
           </div>
 
+          <div class="grid-x grid-padding-x">
+            <div class="large-4 medium-6 small-8 cell float-center" id="buttons">
+          <a class="find-book float-center" href="#"><i class="fi-marker fo-icon"></i>FIND A BOOK</a>
+          <a class="order-book float-center" href="#"><i class="fi-shopping-cart fo-icon"></i>ORDER A BOOK</a>
+        </div>
+      </div>
+
             </div>
           </div>
         </div>
 
-        <div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse">
+        <div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse hide-for-small-only">
           <div class="cell">
             <div id="find-or-order">
               <div class="grid-x grid-padding-x">
-                <div class="large-8 medium-8 small-6 cell clearfix float-center">
-                  <a class="find-book float-left" href="#"><i class="fi-marker fo-icon"></i>FIND A BOOK</a>
-                  <a class="order-book float-right" href="#"><i class="fi-shopping-cart fo-icon"></i>ORDER A BOOK</a>
+                <div class="large-6 medium-8 small-6 cell clearfix float-center">
                       <img class="illustration float-center hide-for-small-only" src="images/chico-illustration.svg" alt="Chico">
                     </div>
-                  </div>
                 </div>
               </div>
             </div>
+          </div>
 
 
           <div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse">
             <div class="large-12 small-12 cell">
               <h1 class="testimonial-title"><i class="fi-paw icon-left"></i> Testimonials <i class="fi-paw icon-right"></i></h1>
               <div class="grid-x grid-padding-x">
-                <div class="large-6 cell testimonial-con float-center">
+                <div class="large-6 medium-8 small-8 cell testimonial-con float-center">
                   <p class="testimonial-text">
                     "This story does an amazing job at portraying a child's first visit to the dentist through the very cute eyes of Chico! Every parent should read this story to their young children to help them understand how easy and fun dentistry can be. I look forward to more Chico Experiences!"
                   </p>
@@ -115,7 +120,7 @@
                 </div>
             </div>
             <div class="grid-x grid-padding-x">
-              <div class="large-6 cell testimonial-con float-center">
+              <div class="large-6 medium-8 small-8 cell testimonial-con float-center">
                 <p class="testimonial-text">
                   "It's time for Chico's first visit to the dentist! This informative and educational story is easy to read and understand. Chico and his mom will help your prepare your child and desensitize them before coming to the office. A definite recommend for parents of young children!"
                 </p>
@@ -123,7 +128,7 @@
               </div>
           </div>
           <div class="grid-x grid-padding-x">
-            <div class="large-6 cell testimonial-con float-center">
+            <div class="large-6 medium-8 small-8 cell testimonial-con float-center">
               <p class="testimonial-text">
                 "A must read for children and their parents beginning their journey as patients in a dental office."
               </p>
@@ -132,6 +137,45 @@
         </div>
           </div>
         </div>
+
+        <div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse">
+          <div class="large-12 small-12 cell">
+
+            <div class="grid-x grid-padding-x" id="donate">
+              <div class="large-4 medium-6 small-8 cell float-center">
+            <a class="donate-button float-center" href="#"><i class="fi-heart"></i> DONATE</a>
+          </div>
+        </div>
+      </div>
+        </div>
+
+
+        <div class="contact-panel" id="contact-panel" data-toggler=".is-active">
+  <a class="contact-panel-button" data-toggle="contact-panel">Contact us</a>
+  <form action="post">
+    <div class="row">
+      <label>Full name *
+        <input type="text" placeholder="Full name">
+      </label>
+    </div>
+    <div class="row">
+      <label>Email *
+        <input type="email" placeholder="Email address">
+      </label>
+    </div>
+    <div class="row">
+      <label>Message *
+        <textarea placeholder="Describe your needs" rows="3"></textarea>
+      </label>
+    </div>
+    <div class="contact-panel-actions">
+      <button class="cancel-button" data-toggle="contact-panel">Nevermind</button>
+      <input type="submit" class="button submit-button" value="Submit">
+    </div>
+  </form>
+</div>
+
+
 
 
         <div class="grid-x grid-padding-x large-padding-collapse medium-padding-collapse small-padding-collapse">

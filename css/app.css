@@ -99,6 +99,8 @@ a:visited {
   margin-top: 20px;
 }
 
+
+
 @media screen and (max-width: 928px) {
   .topbar-center-logo .top-bar-center {
     display: none;
@@ -223,6 +225,8 @@ a:visited {
   font-size: 3em;
   padding-top: 50px;
   padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -248,6 +252,10 @@ a:visited {
   padding-top: 10px;
 }
 
+#buttons {
+  margin-bottom: 40px;
+}
+
 .description-text {
   font-family: 'Open Sans', sans-serif;
   color: #212121;
@@ -263,13 +271,19 @@ a:visited {
   background-color: #069dbf;
 }
 
+.paw-prints {
+  max-width: 150px;
+}
+
 .find-book {
   background-color: #184a8e;
   padding: 15px;
   font-family: 'Open Sans', sans-serif;
   border-radius: 20px;
   font-size: 18px;
-  margin-top: 80px;
+  width: 180px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .order-book {
@@ -278,7 +292,9 @@ a:visited {
   font-family: 'Open Sans', sans-serif;
   border-radius: 20px;
   font-size: 18px;
-  margin-top: 80px;
+  width: 200px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .fo-icon {
@@ -287,7 +303,8 @@ a:visited {
 }
 
 .illustration {
-  max-width: 300px;
+  max-width: 20%;
+  height: auto;
   min-width: 300px;
   margin-top: 50px;
 }
@@ -326,4 +343,128 @@ footer {
   width: 80%;
   margin-bottom: 50px;
   margin-top: 20px;
+}
+
+#donate-section {
+  background-color: #069dbf;
+  height: 200px;
+}
+
+.donate-button {
+  color: white;
+  text-align: center;
+  background-color: red;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 2em;
+  width: 250px;
+  margin-bottom: 50px;
+}
+
+.donate-button:hover {
+  text-decoration: none;
+  background-color: #C50000;
+}
+
+
+.contact-panel-button {
+  background-color: #184a8e;
+  width: auto;
+  padding: 0.25rem 1.25rem;
+  text-align: center;
+  position: absolute;
+  top: -30px;
+  right: 20px;
+  transition: background 0.25s ease-in-out;
+}
+
+.contact-panel-button:after {
+  content: "⥣";
+  margin-left: 5px;
+}
+
+.contact-panel-button:hover {
+  background:#184a8e;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.is-active .contact-panel-button:after {
+  content: "⥥";
+}
+
+.contact-panel {
+  padding: 1rem;
+  z-index: 1;
+  background-color: #184a8e;
+  width: 350px;
+  height: 375px;
+  position: fixed;
+  bottom: -375px;
+  right: 20px;
+  transition: bottom 0.5s ease-in-out;
+}
+
+.contact-panel label {
+  color: #fefefe;
+  width: 100%;
+}
+
+.contact-panel input[type="text"],
+.contact-panel input[type="email"],
+.contact-panel textarea {
+  background: #ffffff;
+  border: #0a0a0a;
+  transition: background 0.3s ease-in-out;
+}
+
+.contact-panel input[type="text"]:focus,
+.contact-panel input[type="email"]:focus,
+.contact-panel textarea:focus {
+  background: #fefefe;
+}
+
+.contact-panel .contact-panel-actions {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-panel .submit-button {
+  margin-bottom: 0;
+}
+
+.contact-panel .cancel-button {
+  margin-bottom: 0;
+  padding: 0.75rem 1rem;
+  color: #fefefe;
+  transition: background 0.25s ease-in-out;
+}
+
+.contact-panel .cancel-button:hover {
+  background: #184a8e;
+  color: #f0f0f0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #184a8e;
+}
+
+.contact-panel.is-active {
+  bottom: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .contact-panel {
+    width: 100%;
+    right: 0;
+  }
 }
