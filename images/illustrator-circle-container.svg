@@ -7,6 +7,7 @@
 
       .cls-1, .cls-18 {
         stroke: #fff;
+        stroke-width: 49px;
       }
 
       .cls-1, .cls-11, .cls-13, .cls-17, .cls-18, .cls-9 {
