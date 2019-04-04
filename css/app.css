@@ -155,6 +155,19 @@ a:visited {
   text-align:justify;
 }
 
+
+.body-text-about {
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.5;
+  text-align:justify;
+}
+
 /* Index Styles */
 
 #welcome-home {
@@ -273,4 +286,15 @@ footer {
   margin: 0 auto;
   padding: 0;
   width: 350px;
+}
+
+.about-page-img{
+  text-align: center;
+}
+
+.about-page-img img{
+  border-radius: 60px;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
