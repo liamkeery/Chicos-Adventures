@@ -462,6 +462,43 @@ footer {
   bottom: 0;
 }
 
+#paws{
+  position: absolute;
+  width: 13%;
+  /* left: 0; */
+  top: 15%;
+  /* float: right; */
+  right: 0;
+}
+
+#paws1{
+  position: absolute;
+      width: 13%;
+      /* left: 0; */
+      transform: rotate(-35deg);
+          top: 1200px;
+      /* float: right; */
+      right: 80px;
+}
+
+#paws2{
+  position: absolute;
+  width: 13%;
+  /* left: 0; */
+  top: 15%;
+  /* float: right; */
+  left: 0;
+}
+
+#hero-banner{
+  text-align: center;
+}
+
+#hero-banner img{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 @media screen and (max-width: 39.9375em) {
   .contact-panel {
     width: 100%;
