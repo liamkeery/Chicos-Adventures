@@ -464,30 +464,41 @@ footer {
 
 #paws{
   position: absolute;
-  width: 13%;
-  /* left: 0; */
-  top: 15%;
-  /* float: right; */
-  right: 0;
+      width: 12%;
+      /* left: 0; */
+      /* transform: rotate(-35deg); */
+      transform: translateX(-1015px) rotate(35deg) translateY(-160px);
+      /* top: 1200px; */
+      /* margin-right: -250px; */
+      /* float: right; */
+      right: 320px;
+      /* right: 80px; */
 }
 
 #paws1{
   position: absolute;
-      width: 13%;
-      /* left: 0; */
-      transform: rotate(-35deg);
-          top: 1200px;
-      /* float: right; */
-      right: 80px;
+  width: 12%;
+  /* left: 0; */
+  /* transform: rotate(-35deg); */
+  transform: translateX(175px) rotate(-35deg) translateY(50px);
+  /* top: 1200px; */
+  /* margin-right: -250px; */
+  /* float: right; */
+  right: 320px;
+  /* right: 80px; */
 }
 
 #paws2{
   position: absolute;
-  width: 13%;
+  width: 12%;
   /* left: 0; */
-  top: 15%;
+  /* transform: rotate(-35deg); */
+    transform: translateX(315px) rotate(-35deg) translateY(-120px);
+  /* top: 1200px; */
+  /* margin-right: -250px; */
   /* float: right; */
-  left: 0;
+  right: 320px;
+  /* right: 80px; */
 }
 
 #hero-banner{
